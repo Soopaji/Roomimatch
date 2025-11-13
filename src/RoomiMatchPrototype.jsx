@@ -5,7 +5,7 @@ import { Input } from "./components/ui/input";
 import { Badge } from "./components/ui/badge";
 import { Select, SelectTrigger, SelectContent, SelectItem } from "./components/ui/select";
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://roomimatch-backend.onrender.com';
 
 export default function RoomiMatchPrototype() {
   const [currentView, setCurrentView] = useState('register'); // 'register', 'swipe', 'chat'
